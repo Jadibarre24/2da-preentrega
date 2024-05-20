@@ -1,7 +1,27 @@
 body{
     background-color: aliceblue;
 }
-.navbar{
+header{
+    background-color: black;
+}
+.logoHeader{
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}    
+.card-item{
+    margin: 15px;
+    border: 1px solid black; 
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 250px; img{height: 180px;
+    ;}
+} 
+/* .navbar{
     background-color: rgb(163, 210, 248);
     width: 100%;
 }
@@ -17,21 +37,12 @@ body{
 }
 #navbarNav{
     width: 100%;
-}
-.card-container{
+} */
+/* .card-container{
     display: flex;
     flex-wrap: wrap;
 }
-.card-item{
-    margin: 15px;
-    border: 1px solid black; 
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    height: 320px;
-    width: 250px; img{height: 180px;
-    ;}
-}
+*/
 footer {p{text-align: center;}}
 
 .icons{
